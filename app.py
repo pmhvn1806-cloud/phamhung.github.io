@@ -56,11 +56,11 @@ with open("templates/about.html", "w", encoding="utf-8") as f:
         </nav>
     </header>
     <main>
-        <p style="font-size: 35px;">xin tự giới thiệu</p>
-        <p style="font-size: 35px;">tôi tên là Phạm Hùng, sinh năm 2009 tại tỉnh Quảng Ninh.</p>
-        <p style="font-size: 35px:">tôi hiện đang học tại trường THPT Hùng Vương,lớp 11A6<p>
-        <p style="font-size: 35px;">đây có thể coi là trang web đầu tay của tôi</p>             <p style="font-size: 30px;">Đây là dự án đầu tiên của mình — nơi mình thử nghiệm, học hỏi và chia sẻ về bản thân cũng như chia sẻ sự sáng tạo với công nghệ </p>
-        <p style="font-size: 35px;">                        cảm ơn mọi người đã xem dòng tâm sự của tôi!  </p>
+        <p>xin tự giới thiệu</p>
+        <p>tôi tên là Phạm Hùng, sinh năm 2009 tại tỉnh Quảng Ninh.</p>
+        <p>tôi hiện đang học tại trường THPT Hùng Vương,lớp 11A6<p>
+        <p>đây có thể coi là trang web đầu tay của tôi</p>             <p>Đây là dự án đầu tiên của mình — nơi mình thử nghiệm, học hỏi và chia sẻ về bản thân cũng như chia sẻ sự sáng tạo với công nghệ </p>
+        <p>                        cảm ơn mọi người đã xem dòng tâm sự của tôi!  </p>
     </main>
 </body>
 </html>
@@ -147,3 +147,4 @@ def contact():
 if __name__ == "__main__":
     print("👉 Mở trình duyệt và vào: http://127.0.0.1:5000")
     app.run(debug=True)
+
